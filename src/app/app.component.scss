@@ -1,0 +1,58 @@
+:host{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #333333, #f84018);
+    padding: 0;
+    font-family: 'montserrat';
+  
+    h3{
+      color: rgb(253, 253, 253);
+    }
+  
+    .button{
+      min-width: 200px;
+      min-height: 20px;
+      padding: 8px 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #141414;
+      color: #f84018;
+      cursor: pointer;
+    }
+    .corpo{
+      margin: auto;
+      
+    }
+    .card-header{
+      float: left;
+      margin-top: -225px;
+      margin-left: -260px;
+    }
+
+    .procuraNiveis{
+      float: right;
+      margin-top: -201px;
+      margin-right: -260px;
+    }
+
+    .comboBoxNivel{
+      margin-bottom: 13px;
+      min-width: 200px;
+      min-height: 23px;
+    }
+
+    .procuraNomes{
+      margin-top: -200px;
+    }
+    .nome{
+      min-width: 190px;
+      min-height: 15px;
+      margin-bottom: 15px;
+    }
+
+    .imagens{
+      margin-top: 300px;
+      
+    }
+  }
